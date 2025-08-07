@@ -51,6 +51,13 @@ sphinx:                                              # Options passed on to the 
     - sphinx_dropdown_toggle                         # Adds a button to toggle all dropdowns with one click
     - sphinx_proof                                   # Allows you to add various mathy admonitions to your book: https://sphinx-proof.readthedocs.io/en/latest/
     - sphinx_code_examples                           # Allows you to include code blocks in examples: https://teachbooks.io/manual/_git/github.com_TeachBooks_sphinx-code-examples/main/MANUAL.html
+    - sphinx_tudelft_theme                           # Adds the TU Delft theme to your book:
 
 bibtex_bibfiles: 
   - references.bib                                   # Required for references
+
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default!
+    - amsmath
