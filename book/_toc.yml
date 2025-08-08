@@ -5,4 +5,5 @@ parts:
   - caption: Contents
     chapters:
     - file: Bending/00_bending.md
-      
+      sections:
+      - file: Bending/01_sym_bending.md
