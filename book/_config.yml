@@ -22,9 +22,9 @@ sphinx:                                              # Options passed on to the 
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"] #exclude files which should not be accessible for live code: https://teachbooks.io/manual/features/live_code.html
     html_theme_options:
       logo:
-        text: Aircraft Structural Analysis & Design                             # Replace this with your own book title
-        image_light: Rocket_Scientist_Fanta.png             # Put your logo for the light mode here (can be the same as image_dark)
-        image_dark: Rocket_Scientist_Fanta.png     # Put your logo for the dark mode here (can be the same as image_light)
+        text: Aircraft Structural Analysis & Design  # Replace this with your own book title
+        image_light: Rocket_Scientist_Fanta.png      # Put your logo for the light mode here (can be the same as image_dark)
+        image_dark: Rocket_Scientist_Fanta.png       # Put your logo for the dark mode here (can be the same as image_light)
       repository_url: "https://github.com/cdrans/SAD_textbook" # Add your own repo URL here
       path_to_docs: "book"                           # Required for edit_page_button, should be book if you're using TeachBooks package (https://github.com/TeachBooks/TeachBooks) or the TeachBooks deploy book workflow (https://teachbooks.io/manual/external/deploy-book-workflow/README.html)
       repository_branch: "main"                      # Replace when you change the name of your published branch (required for edit_page_button)
@@ -40,6 +40,8 @@ sphinx:                                              # Options passed on to the 
       chtml: {
         mtextInheritFont: true                       # To typeset text within math prettier
       }  
+    tud_change_favicon: true                        # Set to true if you want to change the favicon to match the TU Delft theme
+    tud_change_titlesize: false                      # Set to true if you want to change the title size to match the TU Delft theme
     tud_change_logo: false                           # Set to true if you want to use the TU Delft logo instead of the TeachBooks logo
   extra_extensions:                                  # Gives you a starter package of extensions to use in your book
     - jupyterbook_patches                            # Various patches by TeachBooks: https://github.com/TeachBooks/JupyterBook-Patches
