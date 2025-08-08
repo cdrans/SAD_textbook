@@ -6,7 +6,7 @@ Beams are one of the most common structural elements in the design toolbox of an
 
 With respect to the second point, this can be point forces, distributed forces, or moments, as long as they act (or have a component that acts) transverse to the axis of the beam. This type of loading will generate internal bending moments within the beam. It is important to recognize that such loading can and will generate internal shear forces as well. Indeed, we have seen in the earlier chapter on internal loading that internal shear and bending are related, $\frac{{dM}}{{dz}} = V$. However, for this chapter, we will focus on pure bending and leave the discussion of transverse shear to later chapters.
 
-In this chapter, we will consider three general classifications of bending: {ref}`sec_sym_bend`, *biaxial bending*, and *unsymmetrical bending*. The former is the most simplistic and easiest case to analyze and understand conceptually, thus we will start with this case and work our way towards the more general case of unsymmetrical bending. First, however, lets consider the general set of assumptions and conditions we will constrain ourselves when considering bending in this chapter.
+In this chapter, we will consider three general classifications of bending: {ref}`sec_sym_bend`, {ref}`sec_bia_bend`, and {ref}`sec_unsym_bend`. The former is the most simplistic and easiest case to analyze and understand conceptually, thus we will start with this case and work our way towards the more general case of unsymmetrical bending. First, however, lets consider the general set of assumptions and conditions we will constrain ourselves when considering bending in this chapter.
 
 ## Conventions and Assumptions
 Although we will be looking at various cases for bending within this chapter, there are some common conventions and assumptions that we will be making that are stated here. 
@@ -36,3 +36,22 @@ The assumptions above will apply to all of the cases of bending treated in this 
 (sec_sym_bend)=
 # Symmetrical Bending 
 The first case of bending we will examine is known as Symmetrical Bending (or sometimes just Simple Bending). It is characterized by bending where a moment $M$ acting within a given plane will only cause bending deformation within that plane. The conditions necessary for this to occur are that *a*) the cross-section of the beam contains at least one plane of symmetry (see Fig.) and *b*) the internal bending moment is aligned with or perpendicular to the cross-sectional plane of symmetry. In this type of bending, it is customary to align the coordinate system of the beam such that the bending moment is aligned with the $x$-axis and bending occurs within the $yz$-plane. In many engineering applications, it is also common to orient the coordinate system with the $y$-axis pointing downwards such that distributed gravitational loads are positive (upper-left orientation in the figure below). However, it should be noted that this is simply a common convention, and the other three orientations of the coordinate system shown in the same figure are equivalent as they represent alternative views of the same beam and loading.
+
+::::::{tip}
+It is easy to confuse the plane in which a moment acts with the direction of a moment. A moment, like a plane, is defined by the direction of the normal vector to that plane (using the right hand rule). So moment $M_x$ acts within the $yz$-plane.
+::::::
+
+
+
+
+
+
+(sec_bia_bend)=
+# Biaxial Bending 
+
+
+
+
+
+(sec_unsym_bend)=
+# Unsymmetrical Bending 
