@@ -4,5 +4,5 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: bending/00_bending.md
+    - file: Bending/00_bending.md
       
