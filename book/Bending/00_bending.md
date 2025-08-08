@@ -5,6 +5,7 @@ Beams are one of the most common structural elements in the design toolbox of an
 2. It is subjected to external loading transverse to the axis of the beam.
 
 With respect to the second point, this can be point forces, distributed forces, or moments, as long as they act (or have a component that acts) transverse to the axis of the beam. This type of loading will generate internal bending moments within the beam. It is important to recognize that such loading can and will generate internal shear forces as well. Indeed, we have seen in the earlier chapter on internal loading that internal shear and bending are related, $\frac{{dM}}{{dz}} = V$. However, for this chapter, we will focus on pure bending and leave the discussion of transverse shear to later chapters.
+
 In this chapter, we will consider three general classifications of bending: *symmetrical bending*, *biaxial bending*, and *unsymmetrical bending*. The former is the most simplistic and easiest case to analyze and understand conceptually, thus we will start with this case and work our way towards the more general case of unsymmetrical bending. First, however, lets consider the general set of assumptions and conditions we will constrain ourselves when considering bending in this chapter.
 
 
