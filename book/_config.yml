@@ -59,8 +59,4 @@ sphinx:                                              # Options passed on to the 
 bibtex_bibfiles: 
   - references.bib                                   # Required for references
 
-parse:
-  myst_enable_extensions:
-    # don't forget to list any other extensions you want enabled,
-    # including those that are enabled by default!
-    - amsmath
+
