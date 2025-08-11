@@ -186,21 +186,24 @@ Again, the remaining integral within the above equation should be familiar. It i
         \end{equation*}
 
 Finally, we can recognize from eqn. {eq}`eq:stresscurvature` that we can replace the fraction $\frac{E}{R}$ with $\frac{\sigma_z}{y}$ and rearrange the above expression to obtain:
+\begin{equation*}
+   M_x = \frac{M_x \cdot y}{I_{xx}}
+\end{equation*}
+
+This equation is typically referred to as the *Flexure Formula*.
+::::::
+
+::::::{important} 
+Students often make mistakes with respect to the subscripts for $I$. The term $I_{xx}$ refers to the Area Moment of Inertia about the $x$ axis, thus the value is dependent on the $y$-distance from the $x$-axis. So the quantity $\int_A y^2 \cdot dA = I_{xx}$ not $I_{yy}$ as you might mistakenly think due to the presence of $y$ in the integral.
+::::::
+
+#### Summary of Derivations
+From the above two derivations, we discovered that the neutral plane must pass through the centroid of the cross-section, and developed the following equation, known as the *Flexure Formula*:
 ```{math}
 ---
 name: eq:flexform
 ---
 M_x = \frac{M_x \cdot y}{I_{xx}}
 ```
-
-This equation is typically referred to as the *Flexure Formula*.
-::::::
-
-::::::{important} 
-    Students often make mistakes with respect to the subscripts for $I$. The term $I_{xx}$ refers to the Area Moment of Inertia about the $x$ axis, thus the value is dependent on the $y$-distance from the $x$-axis. So the quantity $\int_A y^2 \cdot dA = I_{xx}$ not $I_{yy}$ as you might mistakenly think due to the presence of $y$ in the integral.
-::::::
-
-#### Summary of Derivations
-From the above two derivations, we discovered that the neutral plane must pass through the centroid of the cross-section, and developed eqn. {eq}`eq:flexform`, known as the *Flexure Formula*.
 
 In many textbooks, rather than indicating the relevant axis with subscripts, the flexure formula is often simply written as $\sigma = \frac{M y}{I}$. The presence of the variable $y$ in the formula implies the direction of the moment and relevant moment of inertia. However, to avoid confusion with the more complicated cases of bending later in this chapter, we will consistently use the subscripts even for this simple case.
