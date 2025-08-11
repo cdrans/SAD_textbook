@@ -56,9 +56,6 @@ Fibre elongation/contraction in a beam under pure bending.
 ::::::
 
 As we can see, the material within the beam is either being elongated or compressed, we can deduce from our understanding of the types of strains (ie: shear vs. normal strain) that bending results in internal normal strains. This normal strain by definition is zero at the neutral plane and will vary linearly with distance y from the neutral plane according to the relationship:
-\begin{equation} \label{eq:straincurvature}
-    \epsilon_z = \frac{y}{R}
-\end{equation}
 
 ```{math}
 ---
@@ -72,6 +69,7 @@ where $R$ is the radius of curvature of the neutral plane of the beam.
 For completeness, the derivation of this expression is given at the end of this section. More importantly, you should focus on what this expression tells us. Looking at the above equation we see that the normal strain due to bending is linearly dependent on the distance $y$ that we defined as the transverse distance from the neutral plane. Noting that this result was derived for a positive internal bending moment (refer to the direction of $M_x$ in {numref}`Fig:SymBendDefDraw`), we can also see that a compressive normal strain is produced when $y$ is negative (above the neutral plane) and a positive normal strain when $y$ is positive (below the neutral plane). This is consistent with our earlier observations of beam deformation in {numref}`Fig:SymBendDef` and reconnects with the deformation-based sign convention for internal bending moments discussed in **Sign Convention for Internal Loads** section in the chapter on **Internal Loads**. 
 
 Recalling that we are limiting our analysis of beams to the linear elastic material regime, we can also then state that the internal normal stresses within the beam will also vary linearly with distance from the neutral plane. Thus, we can express that:
+$${\sigma _z} = E{_z} = E\frac{y}{R}$$ (eq:stresscurvature)
 
 ```{math}
 ---
