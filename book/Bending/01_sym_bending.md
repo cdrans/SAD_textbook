@@ -44,24 +44,24 @@ Taking the above observations into account, we can sketch the deformation of the
 
 
 ```{figure} ../figures/Bending_deformation_drawing3.svg
-    ---
-    width: 80%
-    name: Fig:SymBendDefDraw
-    ---
-    Fibre elongation/contraction in a beam under pure bending.
- ```
+---
+width: 80%
+name: Fig:SymBendDefDraw
+---
+Fibre elongation/contraction in a beam under pure bending.
+```
 
 ::::::{important}
-        **Neutral plane vs. neutral axis**. Both these terms are used throughout this chapter, but what is the difference between them? If you consider a 3-dimensional beam in bending, the "fibre" along the beam that does not deform is actually a 2-dimensional plane. Thus, we refer to it as the neutral plane. When looking at a 2-dimensional cross-section of a beam, the only portion of the neutral plane visible is the intersection between the neutral plane and the cross-sectional plane which we refer to as the neutral axis.
+**Neutral plane vs. neutral axis**. Both these terms are used throughout this chapter, but what is the difference between them? If you consider a 3-dimensional beam in bending, the "fibre" along the beam that does not deform is actually a 2-dimensional plane. Thus, we refer to it as the neutral plane. When looking at a 2-dimensional cross-section of a beam, the only portion of the neutral plane visible is the intersection between the neutral plane and the cross-sectional plane which we refer to as the neutral axis.
 ::::::
 
 As we can see, the material within the beam is either being elongated or compressed, we can deduce from our understanding of the types of strains (ie: shear vs. normal strain) that bending results in internal normal strains. This normal strain by definition is zero at the neutral plane and will vary linearly with distance y from the neutral plane according to the relationship:
 
 ```{math}
-    ---
-    name: eq:BendCurv
-    ---
-    \epsilon_z = \frac{y}{R}
+---
+name: eq:BendCurv
+---
+\epsilon_z = \frac{y}{R}
 ```
 
 where $R$ is the radius of curvature of the neutral plane of the beam.
@@ -71,10 +71,10 @@ For completeness, the derivation of this expression is given at the end of this 
 Recalling that we are limiting our analysis of beams to the linear elastic material regime, we can also then state that the internal normal stresses within the beam will also vary linearly with distance from the neutral plane. Thus, we can express that:
 
 ```{math}
-    ---
-    name: eq:stresscurvature
-    ---
-    {\sigma _z} = E{_z} = E\frac{y}{R}
+---
+name: eq:stresscurvature
+---
+{\sigma _z} = E{_z} = E\frac{y}{R}
 ```
 
 where $E$ is the Young's modulus of the beam material.
@@ -82,41 +82,41 @@ where $E$ is the Young's modulus of the beam material.
 ::::::{admonition} Derivation of the Strain-Curvature Relationship
 :class: tudproof, dropdown
 Consider a spanwise differential segment of a beam in bending, $dz$, as illustrated in {numref}`Fig:SymBendDefDraw` in both its undeformed and deformed states. The neutral plane of the beam is denoted by points $P$ and $Q$ such that:
-    \begin{equation*}
-        \overline{PQ} = \overline{P^\prime Q^\prime} = dz
-    \end{equation*}
+\begin{equation*}
+    \overline{PQ} = \overline{P^\prime Q^\prime} = dz
+\end{equation*}
 
 In the deformed state, we can define this length by the arc length swept by the radius of curvature, $R$, of the neutral plane:
-    \begin{equation*}
-        \overline{P^\prime Q^\prime} = dz = R \cdot d\theta
-    \end{equation*}
+\begin{equation*}
+    \overline{P^\prime Q^\prime} = dz = R \cdot d\theta
+\end{equation*}
 
 which can be rearranged to obtain:
-    \begin{equation*}
-        d\theta = \frac{dz}{R}
-    \end{equation*}
+\begin{equation*}
+    d\theta = \frac{dz}{R}
+\end{equation*}
 
 If we now look at another plane $\overline{EF}$ located an arbitrary distance $y$ from the neutral plane, we can define its length in the undeforemed state as:
-    \begin{equation*}
-        \overline{EF} = dz
-    \end{equation*}
+\begin{equation*}
+    \overline{EF} = dz
+\end{equation*}
 
 and in its deformed state as:
-    \begin{equation*}
-        \begin{split}
-            \overline{E^\prime F^\prime} &= \left(R+y \right)d\theta\\
-            &= dz + \frac{y}{R}dz
-        \end{split}
-    \end{equation*}
+\begin{equation*}
+    \begin{split}
+        \overline{E^\prime F^\prime} &= \left(R+y \right)d\theta\\
+        &= dz + \frac{y}{R}dz
+    \end{split}
+\end{equation*}
 
 Recalling that normal strain is defined by the change in length of a segment of material divided by its original length, we can formulate an expression for the normal strain in a beam as a function of distance $y$ from the neutral plane:
 \begin{equation*}
-        \begin{split}
-            \epsilon_z &= \frac{\Delta L}{L}\\
-            &= \frac{\overline{E^\prime F^\prime}-\overline{EF}}{\overline{EF}}\\
-            &= \frac{\left( dz + \frac{y}{R}dz \right) - dz}{dz}\\
-            &= \frac{y}{R}
-        \end{split}
+    \begin{split}
+        \epsilon_z &= \frac{\Delta L}{L}\\
+        &= \frac{\overline{E^\prime F^\prime}-\overline{EF}}{\overline{EF}}\\
+        &= \frac{\left( dz + \frac{y}{R}dz \right) - dz}{dz}\\
+        &= \frac{y}{R}
+    \end{split}
 \end{equation*}
 
 Thus ending up with the result expressed in eqn. {eq}`eq:stresscurvature`.
@@ -126,13 +126,13 @@ Thus ending up with the result expressed in eqn. {eq}`eq:stresscurvature`.
 In the previous section, we defined a linear relationship between the normal normal strains in a beam and the distance from the neutral plane of a beam; however, this relationship was in terms of the curvature of the beam. It would be more useful to be able to relate the internal stresses and strains in a beam to the moment loading rather than the beam curvature. 
 
 If we consider a beam under pure moment loading, the internal loading will simply be the bending moment, $M_x$, as illustrated in the figure below. We also observed in the previous section that bending will result in a internal normal stress state that varies linearly with the distance from the neutral plane. Realizing that the internal forces in the beam are simply resultants of the internal stress distribution, we can derive the relation between them by equating their resultants.
-    ```{figure} ../figures/FlexureFormulaRef2.svg
-    ---
-    width: 80%
-    name: Fig:FlexFormRef
-    ---
-    Illustration of the internal normal stress distribution that has a resultant of $M_x$.
-    ```
+```{figure} ../figures/FlexureFormulaRef2.svg
+---
+width: 80%
+name: Fig:FlexFormRef
+---
+Illustration of the internal normal stress distribution that has a resultant of $M_x$.
+```
 
 ::::::{admonition} Normal Force Equivalency
 :class: tudproof
