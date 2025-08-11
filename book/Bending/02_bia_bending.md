@@ -10,12 +10,12 @@ name: Fig:Morient
 Orientation of a moment, M, in the $xy$-plane.
 ```
 ```{admonition} Reminder of the sign convention for moments
-:class: tip
+:class: tip, dropdown
 
 It is important here to recall our sign convention for bending moments. Our sign convention for forces and moments is based upon the sign of the stress and/or the direction of the deformation it causes. Bending moments are the trickiest as the relationship between bending moments and bending deformation is a differential equation that does not produce a direct indication of the sign (a positive bending moment can produce positive or negative bending deflections depending on the boundary conditions of the problem). Furthermore, bending moments create both positive (tensile) and negative (compressive) internal normal stresses. To overcome this, we defined the sign of the moment based on the sign of the normal stress in the positive quadrant of the cross-section. In this way, the bending stress equation reduces to:
 \begin{equation*}        
     \sigma  = \frac{{M_i}d}{I_{ii}}
-\end{equation&}
+\end{equation*}
         
  where the subscript $i$ refers to the coordinate direction of the moment and $d$ is the distance from the centroidal axis of the beam in direction $i$ to the point where the normal stress is being calculated. Thus, the sign of the moment $M_i$ is assigned to ensure that when $d$ is in the positive coordinate direction, it results in a positive normal stress.
 ```
