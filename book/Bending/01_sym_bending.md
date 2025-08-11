@@ -43,26 +43,26 @@ Referring to horizontal lines along the length of the beam in its undeformed sta
 Taking the above observations into account, we can sketch the deformation of the beam as shown below. Here we have introduced another set of points $P$ and $Q$ which define a fibre along the beam that does not change in length as a result of the deformation. We will call this line the {bdg-primary}`neutral plane` of the beam. Although we do not know precisely where it is located at the moment, we can postulate its existence from the fact that on side of the beam is compressed while the other side of the beam elongates. 
 
 
-    ```{figure} ../figures/Bending_deformation_drawing3.svg
+```{figure} ../figures/Bending_deformation_drawing3.svg
     ---
     width: 80%
     name: Fig:SymBendDefDraw
     ---
     Fibre elongation/contraction in a beam under pure bending.
-    ```
+ ```
 
-        ::::::{important}
+::::::{important}
         **Neutral plane vs. neutral axis**. Both these terms are used throughout this chapter, but what is the difference between them? If you consider a 3-dimensional beam in bending, the "fibre" along the beam that does not deform is actually a 2-dimensional plane. Thus, we refer to it as the neutral plane. When looking at a 2-dimensional cross-section of a beam, the only portion of the neutral plane visible is the intersection between the neutral plane and the cross-sectional plane which we refer to as the neutral axis.
-        ::::::
+::::::
 
 As we can see, the material within the beam is either being elongated or compressed, we can deduce from our understanding of the types of strains (ie: shear vs. normal strain) that bending results in internal normal strains. This normal strain by definition is zero at the neutral plane and will vary linearly with distance y from the neutral plane according to the relationship:
 
-    ```{math}
+```{math}
     ---
     name: eq:BendCurv
     ---
     \epsilon_z = \frac{y}{R}
-    ```
+```
 
 where $R$ is the radius of curvature of the neutral plane of the beam.
 
@@ -70,14 +70,14 @@ For completeness, the derivation of this expression is given at the end of this 
 
 Recalling that we are limiting our analysis of beams to the linear elastic material regime, we can also then state that the internal normal stresses within the beam will also vary linearly with distance from the neutral plane. Thus, we can express that:
 
-    ```{math}
+```{math}
     ---
     name: eq:stresscurvature
     ---
     {\sigma _z} = E{_z} = E\frac{y}{R}
-    ```
+```
 
-    where $E$ is the Young's modulus of the beam material.
+where $E$ is the Young's modulus of the beam material.
 
 ::::::{admonition} Derivation of the Strain-Curvature Relationship
 :class: tudproof, dropdown
@@ -126,7 +126,6 @@ Thus ending up with the result expressed in eqn. {eq}`eq:stresscurvature`.
 In the previous section, we defined a linear relationship between the normal normal strains in a beam and the distance from the neutral plane of a beam; however, this relationship was in terms of the curvature of the beam. It would be more useful to be able to relate the internal stresses and strains in a beam to the moment loading rather than the beam curvature. 
 
 If we consider a beam under pure moment loading, the internal loading will simply be the bending moment, $M_x$, as illustrated in the figure below. We also observed in the previous section that bending will result in a internal normal stress state that varies linearly with the distance from the neutral plane. Realizing that the internal forces in the beam are simply resultants of the internal stress distribution, we can derive the relation between them by equating their resultants.
-
     ```{figure} ../figures/FlexureFormulaRef2.svg
     ---
     width: 80%
@@ -186,12 +185,12 @@ Again, the remaining integral within the above equation should be familiar. It i
            \frac{M_x}{I_{xx}} = \frac{E}{R}
         \end{equation*}
 
-Finally, we can recognize from eqn. \ref{eq:stresscurvature} that we can replace the fraction $\frac{E}{R}$ with $\frac{\sigma_z}{y}$ and rearrange the above expression to obtain:
+Finally, we can recognize from eqn. {eq}`eq:stresscurvature` that we can replace the fraction $\frac{E}{R}$ with $\frac{\sigma_z}{y}$ and rearrange the above expression to obtain:
         \begin{equation}\label{eq:flexform}
            M_x = \frac{M_x \cdot y}{I_{xx}}
         \end{equation}
         
-This equation is typically referred to as the\textit{ Flexure Formula}.
+This equation is typically referred to as the *Flexure Formula*.
 ::::::
 
 ::::::{important} Subscripts in Area Moment of Inertia
