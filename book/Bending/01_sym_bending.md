@@ -42,6 +42,15 @@ Referring to horizontal lines along the length of the beam in its undeformed sta
 
 Taking the above observations into account, we can sketch the deformation of the beam as shown below. Here we have introduced another set of points $P$ and $Q$ which define a fibre along the beam that does not change in length as a result of the deformation. We will call this line the {bdg-primary}`neutral plane` of the beam. Although we do not know precisely where it is located at the moment, we can postulate its existence from the fact that on side of the beam is compressed while the other side of the beam elongates. 
 
+
+```{figure} ../figures/Bending_deformation_drawing3.svg
+---
+width: 80%
+name: Fig:SymBendDefDraw
+---
+Fibre elongation/contraction in a beam under pure bending.
+```
+
 ::::::{important}
 **Neutral plane vs. neutral axis**. Both these terms are used throughout this chapter, but what is the difference between them? If you consider a 3-dimensional beam in bending, the "fibre" along the beam that does not deform is actually a 2-dimensional plane. Thus, we refer to it as the neutral plane. When looking at a 2-dimensional cross-section of a beam, the only portion of the neutral plane visible is the intersection between the neutral plane and the cross-sectional plane which we refer to as the neutral axis.
 ::::::
@@ -54,3 +63,9 @@ name: eq:BendCurv
 ---
 \epsilon_z = \frac{y}{R}
 ```
+
+where R is the radius of curvature of the neutral plane of the beam.
+
+For completeness, the derivation of this expression is given at the end of this section. More importantly, you should focus on what this expression tells us. Looking at the above equation we see that the normal strain due to bending is linearly dependent on the distance $y$ that we defined as the transverse distance from the neutral plane. Noting that this result was derived for a positive internal bending moment (refer to the direction of $M_x$ in {numref}`Fig:SymBendDefDraw`), we can also see that a compressive normal strain is produced when $y$ is negative (above the neutral plane) and a positive normal strain when $y$ is positive (below the neutral plane). This is consistent with our earlier observations of beam deformation in {numref}`Fig:SymBendDef` and reconnects with the deformation-based sign convention for internal bending moments discussed in **Sign Convention for Internal Loads** section in the chapter on **Internal Loads**. 
+
+Test reference to equation {eq}`eq:BendCurv`.
