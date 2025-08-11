@@ -75,7 +75,7 @@ Recalling that we are limiting our analysis of beams to the linear elastic mater
 
 ```{math}
 ---
-name: eq:stresscurvature
+name: eq:stresscurvature2
 ---
 {\sigma _z} = E{_z} = E\frac{y}{R}
 ```
