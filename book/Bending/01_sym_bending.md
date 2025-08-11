@@ -163,7 +163,8 @@ What does this condition actually mean? If you recall that we specified that $y$
 ::::::
 
 ::::::{admonition} Bending Moment Equivalency
-Although the overall resultant normal force acting on a beam section is zero, the stress distribution can produce an overall resultant moment. We can analyze this by considering the differential moment, $dM_x$, caused by the normal stress distribution acting on the area element, $dA$, illustrated in Fig. \ref{Fig:FlexFormRef}:
+:class: tudproof
+Although the overall resultant normal force acting on a beam section is zero, the stress distribution can produce an overall resultant moment. We can analyze this by considering the differential moment, $dM_x$, caused by the normal stress distribution acting on the area element, $dA$, illustrated in {numref}`Fig:FlexFormRef`:
         \begin{equation*}
             dM_x = dF_z \cdot y = \left( \sigma_z \cdot dA\right)y
         \end{equation*}
@@ -174,20 +175,16 @@ The internal bending moment, $M_x$, acting at a beam section will simply be the 
             M_x = \int_A \sigma_z \cdot y \cdot dA
         \end{equation*}
         
-Substituting the expression for $\sigma_z$ from eqn. \ref{eq:stresscurvature}, and limiting ourselves to a beam made of a single material such that $E$ is constant for the given cross-section, we obtain:
+Substituting the expression for $\sigma_z$ from eqn. {eq}`eq:stresscurvature`, and limiting ourselves to a beam made of a single material such that $E$ is constant for the given cross-section, we obtain:
         \begin{equation*}
             M_x = \frac{E}{R}\int_A y^2 \cdot dA
         \end{equation*}
         
-Again, the remaining integral within the above equation should be familiar. It is the \textit{Second Moment of Area}, also often referred to as the \textit{Area Moment of Inertia} and denoted by $I_{xx}$. Recognizing this, we can write the expression:
+Again, the remaining integral within the above equation should be familiar. It is the \textit{Second Moment of Area}, also often referred to as the *Area Moment of Inertia* and denoted by $I_{xx}$. Recognizing this, we can write the expression:
         %
         \begin{equation*}
            \frac{M_x}{I_{xx}} = \frac{E}{R}
         \end{equation*}
-        
-    ::::::{important} Subscripts in Area Moment of Inertia
-        Students often make mistakes with respect to the subscripts for $I$. The term $I_{xx}$ refers to the Area Moment of Inertia about the $x$ axis, thus the value is dependent on the $y$-distance from the $x$-axis. So the quantity $\int_A y^2 \cdot dA = I_{xx}$ not $I_{yy}$ as you might mistakenly think due to the presence of $y$ in the integral.
-    ::::::
 
 Finally, we can recognize from eqn. \ref{eq:stresscurvature} that we can replace the fraction $\frac{E}{R}$ with $\frac{\sigma_z}{y}$ and rearrange the above expression to obtain:
         \begin{equation}\label{eq:flexform}
@@ -195,4 +192,8 @@ Finally, we can recognize from eqn. \ref{eq:stresscurvature} that we can replace
         \end{equation}
         
 This equation is typically referred to as the\textit{ Flexure Formula}.
+::::::
+
+::::::{important} Subscripts in Area Moment of Inertia
+        Students often make mistakes with respect to the subscripts for $I$. The term $I_{xx}$ refers to the Area Moment of Inertia about the $x$ axis, thus the value is dependent on the $y$-distance from the $x$-axis. So the quantity $\int_A y^2 \cdot dA = I_{xx}$ not $I_{yy}$ as you might mistakenly think due to the presence of $y$ in the integral.
 ::::::
