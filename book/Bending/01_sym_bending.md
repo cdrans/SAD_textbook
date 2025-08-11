@@ -71,6 +71,8 @@ For completeness, the derivation of this expression is given at the end of this 
 Recalling that we are limiting our analysis of beams to the linear elastic material regime, we can also then state that the internal normal stresses within the beam will also vary linearly with distance from the neutral plane. Thus, we can express that:
 $${\sigma _z} = E{_z} = E\frac{y}{R}$$ (eq:stresscurvature)
 
+**test text**
+
 ```{math}
 ---
 name: eq:stresscurvature2
