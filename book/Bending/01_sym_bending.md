@@ -126,7 +126,7 @@ Recalling that normal strain is defined by the change in length of a segment of 
 
 Thus ending up with the result expressed in eqn. {eq}`eq:stresscurvature`.
 
-{numref}`eq:stresscurvature`
+{numref}`eq:stresscurvature2`
 ::::::
 
 ### Flexure Formula
