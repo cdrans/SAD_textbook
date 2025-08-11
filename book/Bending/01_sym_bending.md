@@ -69,7 +69,9 @@ where $R$ is the radius of curvature of the neutral plane of the beam.
 For completeness, the derivation of this expression is given at the end of this section. More importantly, you should focus on what this expression tells us. Looking at the above equation we see that the normal strain due to bending is linearly dependent on the distance $y$ that we defined as the transverse distance from the neutral plane. Noting that this result was derived for a positive internal bending moment (refer to the direction of $M_x$ in {numref}`Fig:SymBendDefDraw`), we can also see that a compressive normal strain is produced when $y$ is negative (above the neutral plane) and a positive normal strain when $y$ is positive (below the neutral plane). This is consistent with our earlier observations of beam deformation in {numref}`Fig:SymBendDef` and reconnects with the deformation-based sign convention for internal bending moments discussed in **Sign Convention for Internal Loads** section in the chapter on **Internal Loads**. 
 
 Recalling that we are limiting our analysis of beams to the linear elastic material regime, we can also then state that the internal normal stresses within the beam will also vary linearly with distance from the neutral plane. Thus, we can express that:
-$${\sigma _z} = E{_z} = E\frac{y}{R}$$ (eq:stresscurvature)
+    \begin{equation}\label{eq:stresscurvature}
+        \sigma _z = E{_z} = E\frac{y}{R}
+    \end{equation}
 
 **test text**
 
@@ -85,23 +87,32 @@ where $E$ is the Young's modulus of the beam material.
 ::::::{admonition} Derivation of the Strain-Curvature Relationship
 :class: tudproof, dropdown
 Consider a spanwise differential segment of a beam in bending, $dz$, as illustrated in Fig. !fig{SymBendDefDraw} in both its undeformed and deformed states. The neutral plane of the beam is denoted by points $P$ and $Q$ such that:
-    $$\overline {PQ}  = \overline {P'Q'}  = dz$$
+    \begin{equation*}
+        \overline{PQ} = \overline{P^\prime Q^\prime} = dz
+    \end{equation*}
 
 In the deformed state, we can define this length by the arc length swept by the radius of curvature, $R$, of the neutral plane:
-    $$\overline{P^\prime Q^\prime} = dz = R \cdot d\theta$$
+    \begin{equation*}
+        \overline{P^\prime Q^\prime} = dz = R \cdot d\theta
+    \end{equation*}
 
 which can be rearranged to obtain:
-    $$d\theta = \frac{dz}{R}$$
+    \begin{equation*}
+        d\theta = \frac{dz}{R}
+    \end{equation*}
 
 If we now look at another plane $\overline{EF}$ located an arbitrary distance $y$ from the neutral plane, we can define its length in the undeforemed state as:
-
-    $$\overline{EF} = dz$$
+    \begin{equation*}
+        \overline{EF} = dz
+    \end{equation}
 
 and in its deformed state as:
-    $$\begin{array}{*{20}{c}}
-    {\overline {E'F'}  = \left( {R + y} \right)d\theta }\\
-    { = dz + \frac{y}{R}dz}
-    \end{array}$$
+    \begin{equation*}
+        \begin{split}
+            \overline{E^\prime F^\prime} &= \left(R+y \right)d\theta\\
+            &= dz + \frac{y}{R}dz
+        \end{split}
+    \end{equation*}
 
 Recalling that normal strain is defined by the change in length of a segment of material divided by its original length, we can formulate an expression for the normal strain in a beam as a function of distance $y$ from the neutral plane:
     \begin{equation*}
