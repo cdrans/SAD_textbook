@@ -43,50 +43,45 @@ Referring to horizontal lines along the length of the beam in its undeformed sta
 Taking the above observations into account, we can sketch the deformation of the beam as shown below. Here we have introduced another set of points $P$ and $Q$ which define a fibre along the beam that does not change in length as a result of the deformation. We will call this line the {bdg-primary}`neutral plane` of the beam. Although we do not know precisely where it is located at the moment, we can postulate its existence from the fact that on side of the beam is compressed while the other side of the beam elongates. 
 
 
-```{figure} ../figures/Bending_deformation_drawing3.svg
----
-width: 80%
-name: Fig:SymBendDefDraw
----
-Fibre elongation/contraction in a beam under pure bending.
-```
+    ```{figure} ../figures/Bending_deformation_drawing3.svg
+    ---
+    width: 80%
+    name: Fig:SymBendDefDraw
+    ---
+    Fibre elongation/contraction in a beam under pure bending.
+    ```
 
-::::::{important}
-**Neutral plane vs. neutral axis**. Both these terms are used throughout this chapter, but what is the difference between them? If you consider a 3-dimensional beam in bending, the "fibre" along the beam that does not deform is actually a 2-dimensional plane. Thus, we refer to it as the neutral plane. When looking at a 2-dimensional cross-section of a beam, the only portion of the neutral plane visible is the intersection between the neutral plane and the cross-sectional plane which we refer to as the neutral axis.
-::::::
+        ::::::{important}
+        **Neutral plane vs. neutral axis**. Both these terms are used throughout this chapter, but what is the difference between them? If you consider a 3-dimensional beam in bending, the "fibre" along the beam that does not deform is actually a 2-dimensional plane. Thus, we refer to it as the neutral plane. When looking at a 2-dimensional cross-section of a beam, the only portion of the neutral plane visible is the intersection between the neutral plane and the cross-sectional plane which we refer to as the neutral axis.
+        ::::::
 
 As we can see, the material within the beam is either being elongated or compressed, we can deduce from our understanding of the types of strains (ie: shear vs. normal strain) that bending results in internal normal strains. This normal strain by definition is zero at the neutral plane and will vary linearly with distance y from the neutral plane according to the relationship:
 
-```{math}
----
-name: eq:BendCurv
----
-\epsilon_z = \frac{y}{R}
-```
+    ```{math}
+    ---
+    name: eq:BendCurv
+    ---
+    \epsilon_z = \frac{y}{R}
+    ```
 
 where $R$ is the radius of curvature of the neutral plane of the beam.
 
 For completeness, the derivation of this expression is given at the end of this section. More importantly, you should focus on what this expression tells us. Looking at the above equation we see that the normal strain due to bending is linearly dependent on the distance $y$ that we defined as the transverse distance from the neutral plane. Noting that this result was derived for a positive internal bending moment (refer to the direction of $M_x$ in {numref}`Fig:SymBendDefDraw`), we can also see that a compressive normal strain is produced when $y$ is negative (above the neutral plane) and a positive normal strain when $y$ is positive (below the neutral plane). This is consistent with our earlier observations of beam deformation in {numref}`Fig:SymBendDef` and reconnects with the deformation-based sign convention for internal bending moments discussed in **Sign Convention for Internal Loads** section in the chapter on **Internal Loads**. 
 
 Recalling that we are limiting our analysis of beams to the linear elastic material regime, we can also then state that the internal normal stresses within the beam will also vary linearly with distance from the neutral plane. Thus, we can express that:
-    \begin{equation}\label{eq:stresscurvature}
-        \sigma _z = E{_z} = E\frac{y}{R}
-    \end{equation}
 
-**test text**
+    ```{math}
+    ---
+    name: eq:stresscurvature
+    ---
+    {\sigma _z} = E{_z} = E\frac{y}{R}
+    ```
 
-```{math}
----
-name: eq:stresscurvature2
----
-{\sigma _z} = E{_z} = E\frac{y}{R}
-```
-
-where $E$ is the Young's modulus of the beam material.
+    where $E$ is the Young's modulus of the beam material.
 
 ::::::{admonition} Derivation of the Strain-Curvature Relationship
 :class: tudproof, dropdown
-Consider a spanwise differential segment of a beam in bending, $dz$, as illustrated in Fig. !fig{SymBendDefDraw} in both its undeformed and deformed states. The neutral plane of the beam is denoted by points $P$ and $Q$ such that:
+Consider a spanwise differential segment of a beam in bending, $dz$, as illustrated in {numref}`Fig:SymBendDefDraw` in both its undeformed and deformed states. The neutral plane of the beam is denoted by points $P$ and $Q$ such that:
     \begin{equation*}
         \overline{PQ} = \overline{P^\prime Q^\prime} = dz
     \end{equation*}
@@ -104,7 +99,7 @@ which can be rearranged to obtain:
 If we now look at another plane $\overline{EF}$ located an arbitrary distance $y$ from the neutral plane, we can define its length in the undeforemed state as:
     \begin{equation*}
         \overline{EF} = dz
-    \end{equation}
+    \end{equation*}
 
 and in its deformed state as:
     \begin{equation*}
@@ -125,8 +120,6 @@ Recalling that normal strain is defined by the change in length of a segment of 
     \end{equation*}
 
 Thus ending up with the result expressed in eqn. {eq}`eq:stresscurvature`.
-
-{numref}`eq:stresscurvature2`
 ::::::
 
 ### Flexure Formula
@@ -134,13 +127,13 @@ In the previous section, we defined a linear relationship between the normal nor
 
 If we consider a beam under pure moment loading, the internal loading will simply be the bending moment, $M_x$, as illustrated in the figure below. We also observed in the previous section that bending will result in a internal normal stress state that varies linearly with the distance from the neutral plane. Realizing that the internal forces in the beam are simply resultants of the internal stress distribution, we can derive the relation between them by equating their resultants.
 
-```{figure} ../figures/FlexureFormulaRef2.svg
----
-width: 80%
-name: Fig:FlexFormRef
----
-Illustration of the internal normal stress distribution that has a resultant of $M_x$.
-```
+    ```{figure} ../figures/FlexureFormulaRef2.svg
+    ---
+    width: 80%
+    name: Fig:FlexFormRef
+    ---
+    Illustration of the internal normal stress distribution that has a resultant of $M_x$.
+    ```
 
 ::::::{admonition} Normal Force Equivalency
 :class: tudproof
@@ -167,4 +160,39 @@ Looking at this expression, we can see that there is only one non-trivial soluti
 Hopefully this expression looks a little familiar to you. This integral is often referred to as the *First Moment of Area*, and denoted by the letter $Q$. We have used the First Moment of Area in the past to calculate the location of a centroid. 
     
 What does this condition actually mean? If you recall that we specified that $y$ was the distance from the neutral plane, but that we actually did not know at this moment precisely where it was located. This condition actually specifies its location. In order for First Moment of Area based on this definition of $y$ to be equal to zero, **the neutral plane must pass through the centroid of the cross-section**.  
+::::::
+
+::::::{admonition} Bending Moment Equivalency
+Although the overall resultant normal force acting on a beam section is zero, the stress distribution can produce an overall resultant moment. We can analyze this by considering the differential moment, $dM_x$, caused by the normal stress distribution acting on the area element, $dA$, illustrated in Fig. \ref{Fig:FlexFormRef}:
+        \begin{equation*}
+            dM_x = dF_z \cdot y = \left( \sigma_z \cdot dA\right)y
+        \end{equation*}
+where $dF_z = \left( \sigma_z \cdot dA\right)$ is the resultant force acting on $dA$ and $y$ is the moment arm of this force with respect to the neutral axis of the cross-section.
+        
+The internal bending moment, $M_x$, acting at a beam section will simply be the infinite summation, or integration, of all of these differential moments acting on the cross section:
+        \begin{equation*}
+            M_x = \int_A \sigma_z \cdot y \cdot dA
+        \end{equation*}
+        
+Substituting the expression for $\sigma_z$ from eqn. \ref{eq:stresscurvature}, and limiting ourselves to a beam made of a single material such that $E$ is constant for the given cross-section, we obtain:
+        \begin{equation*}
+            M_x = \frac{E}{R}\int_A y^2 \cdot dA
+        \end{equation*}
+        
+Again, the remaining integral within the above equation should be familiar. It is the \textit{Second Moment of Area}, also often referred to as the \textit{Area Moment of Inertia} and denoted by $I_{xx}$. Recognizing this, we can write the expression:
+        %
+        \begin{equation*}
+           \frac{M_x}{I_{xx}} = \frac{E}{R}
+        \end{equation*}
+        
+    ::::::{important} Subscripts in Area Moment of Inertia
+        Students often make mistakes with respect to the subscripts for $I$. The term $I_{xx}$ refers to the Area Moment of Inertia about the $x$ axis, thus the value is dependent on the $y$-distance from the $x$-axis. So the quantity $\int_A y^2 \cdot dA = I_{xx}$ not $I_{yy}$ as you might mistakenly think due to the presence of $y$ in the integral.
+    ::::::
+
+Finally, we can recognize from eqn. \ref{eq:stresscurvature} that we can replace the fraction $\frac{E}{R}$ with $\frac{\sigma_z}{y}$ and rearrange the above expression to obtain:
+        \begin{equation}\label{eq:flexform}
+           M_x = \frac{M_x \cdot y}{I_{xx}}
+        \end{equation}
+        
+This equation is typically referred to as the\textit{ Flexure Formula}.
 ::::::
