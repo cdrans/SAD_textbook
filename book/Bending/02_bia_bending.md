@@ -43,6 +43,6 @@ where $M_x$ and $M_y$ are the $x$- and $y$-components of an arbitrary moment $M$
 
 When analyzing a biaxial bending problem, one must take care when identifying the location of the neutral axis. It may be tempting to think that it will be aligned with moment $M$ as it is with the symmetric bending components, but this is generally not the case. Recognizing that the normal stress at the neutral axis is zero, we can prove this by setting eqn. {eq}`eq:biaxialbend` equal to zero:
 \begin{equation*}
-    {\sigma _z} = \frac{{M_x}y}{I_{xx}} + \frac{{M_y}x}{I_{yy}} = 0
+{\sigma _z} = \frac{{M_x}y}{I_{xx}} + \frac{{M_y}x}{I_{yy}} = 0
 \end{equation*}
 and then rearranging it define the linear relationship between the $x$ and the $y$ coordinate of the neutral axis:
