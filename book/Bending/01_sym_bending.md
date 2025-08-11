@@ -51,7 +51,7 @@ name: Fig:SymBendDefDraw
 Fibre elongation/contraction in a beam under pure bending.
 ```
 
-::::::{important}
+::::::{note}
 **Neutral plane vs. neutral axis**. Both these terms are used throughout this chapter, but what is the difference between them? If you consider a 3-dimensional beam in bending, the "fibre" along the beam that does not deform is actually a 2-dimensional plane. Thus, we refer to it as the neutral plane. When looking at a 2-dimensional cross-section of a beam, the only portion of the neutral plane visible is the intersection between the neutral plane and the cross-sectional plane which we refer to as the neutral axis.
 ::::::
 
@@ -135,7 +135,7 @@ Illustration of the internal normal stress distribution that has a resultant of 
 ```
 
 ::::::{admonition} Normal Force Equivalency
-:class: tudproof
+:class: tudproof, dropdown
 It is logical that a normal stress distribution will have a resultant normal force. In the case of pure bending, the internal normal force is zero, so we need to ensure that resultant normal force:
     \begin{equation*}
     N_z = \int_A \sigma_z dA = 0
@@ -162,7 +162,7 @@ What does this condition actually mean? If you recall that we specified that $y$
 ::::::
 
 ::::::{admonition} Bending Moment Equivalency
-:class: tudproof
+:class: tudproof, dropdown
 Although the overall resultant normal force acting on a beam section is zero, the stress distribution can produce an overall resultant moment. We can analyze this by considering the differential moment, $dM_x$, caused by the normal stress distribution acting on the area element, $dA$, illustrated in {numref}`Fig:FlexFormRef`:
         \begin{equation*}
             dM_x = dF_z \cdot y = \left( \sigma_z \cdot dA\right)y
@@ -186,13 +186,21 @@ Again, the remaining integral within the above equation should be familiar. It i
         \end{equation*}
 
 Finally, we can recognize from eqn. {eq}`eq:stresscurvature` that we can replace the fraction $\frac{E}{R}$ with $\frac{\sigma_z}{y}$ and rearrange the above expression to obtain:
-        \begin{equation}\label{eq:flexform}
-           M_x = \frac{M_x \cdot y}{I_{xx}}
-        \end{equation}
-        
+```{math}
+---
+name: eq:flexform
+---
+M_x = \frac{M_x \cdot y}{I_{xx}}
+```
+
 This equation is typically referred to as the *Flexure Formula*.
 ::::::
 
-::::::{important} Subscripts in Area Moment of Inertia
-        Students often make mistakes with respect to the subscripts for $I$. The term $I_{xx}$ refers to the Area Moment of Inertia about the $x$ axis, thus the value is dependent on the $y$-distance from the $x$-axis. So the quantity $\int_A y^2 \cdot dA = I_{xx}$ not $I_{yy}$ as you might mistakenly think due to the presence of $y$ in the integral.
+::::::{important} 
+    Students often make mistakes with respect to the subscripts for $I$. The term $I_{xx}$ refers to the Area Moment of Inertia about the $x$ axis, thus the value is dependent on the $y$-distance from the $x$-axis. So the quantity $\int_A y^2 \cdot dA = I_{xx}$ not $I_{yy}$ as you might mistakenly think due to the presence of $y$ in the integral.
 ::::::
+
+#### Summary of Derivations
+From the above two derivations, we discovered that the neutral plane must pass through the centroid of the cross-section, and developed eqn. {eq}`eq:flexform`, known as the *Flexure Formula*.
+
+In many textbooks, rather than indicating the relevant axis with subscripts, the flexure formula is often simply written as $\sigma = \frac{M y}{I}$. The presence of the variable $y$ in the formula implies the direction of the moment and relevant moment of inertia. However, to avoid confusion with the more complicated cases of bending later in this chapter, we will consistently use the subscripts even for this simple case.
