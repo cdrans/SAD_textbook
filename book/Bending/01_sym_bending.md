@@ -134,7 +134,7 @@ name: Fig:FlexFormRef
 Illustration of the internal normal stress distribution that has a resultant of $M_x$.
 ```
 
-```{video} https://youtu.be/LUPb-U1iC7E
+```{video} https://youtu.be/2F4A79hlH-0
 ```
 
 ::::::{admonition} Normal Force Equivalency
