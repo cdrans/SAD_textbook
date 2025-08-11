@@ -45,4 +45,5 @@ When analyzing a biaxial bending problem, one must take care when identifying th
 \begin{equation*}
 0 = {\sigma _z} = \frac{{M_x}y}{I_{xx}} + \frac{{M_y}x}{I_{yy}}
 \end{equation*}
+
 and then rearranging it define the linear relationship between the $x$ and the $y$ coordinate of the neutral axis:
