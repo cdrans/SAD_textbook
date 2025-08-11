@@ -138,20 +138,17 @@ It is logical that a normal stress distribution will have a resultant normal for
     N_z = \int_A \sigma_z dA = 0
     \end{equation*}
     
-where $dA$ is a differential area element of the cross-section and $A$ is the total area domain of the cross-section. In this case, we can observed that the normal stress varies only with the $y$-coordinate in eqn. \ref{eq:stresscurvature}. Thus we can conveniently define our differential area element $dA$ as slices of the cross-section with a constant $y$-coordinate (areas of constant stress) as illustrated in Fig. \ref{Fig:FlexFormRef}. Substituting the normal stress distribution from eqn. \ref{eq:stresscurvature}, we obtain:
-   
+where $dA$ is a differential area element of the cross-section and $A$ is the total area domain of the cross-section. In this case, we can observed that the normal stress varies only with the $y$-coordinate in eqn. {eq}`eq:stresscurvature`. Thus we can conveniently define our differential area element $dA$ as slices of the cross-section with a constant $y$-coordinate (areas of constant stress) as illustrated in {numref}`Fig:FlexFormRef`. Substituting the normal stress distribution from eqn. {eq}`eq:stresscurvature`, we obtain:
     \begin{equation*}
     N_z = \int_A E\frac{y}{R} dA = 0
     \end{equation*}
     
 If we limit ourselves to a beam made out of a single material (constant $E$), then we can further simplify this to:
-    
     \begin{equation*}
     N_z = \frac{E}{R} \int_A y dA = 0
     \end{equation*}
    
 Looking at this expression, we can see that there is only one non-trivial solution as if $R = 0$ there is no bending, and if $E=0$, there is no bending. Thus, in order for the condition of normal force equivalency to be met, then:
-    
     \begin{equation*}
     \int_A y dA = 0
     \end{equation*}
