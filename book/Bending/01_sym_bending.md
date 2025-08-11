@@ -110,14 +110,14 @@ and in its deformed state as:
     \end{equation*}
 
 Recalling that normal strain is defined by the change in length of a segment of material divided by its original length, we can formulate an expression for the normal strain in a beam as a function of distance $y$ from the neutral plane:
-    \begin{equation*}
+\begin{equation*}
         \begin{split}
             \epsilon_z &= \frac{\Delta L}{L}\\
             &= \frac{\overline{E^\prime F^\prime}-\overline{EF}}{\overline{EF}}\\
             &= \frac{\left( dz + \frac{y}{R}dz \right) - dz}{dz}\\
             &= \frac{y}{R}
         \end{split}
-    \end{equation*}
+\end{equation*}
 
 Thus ending up with the result expressed in eqn. {eq}`eq:stresscurvature`.
 ::::::
