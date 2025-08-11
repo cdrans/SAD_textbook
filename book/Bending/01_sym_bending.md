@@ -80,7 +80,7 @@ name: eq:stresscurvature
 where $E$ is the Young's modulus of the beam material.
 
 ::::::{admonition} Derivation of the Strain-Curvature Relationship
-:class: tudproof
+:class: tudproof, dropdown
 Consider a spanwise differential segment of a beam in bending, $dz$, as illustrated in Fig. !fig{SymBendDefDraw} in both its undeformed and deformed states. The neutral plane of the beam is denoted by points $P$ and $Q$ such that:
 
     $$\overline {PQ}  = \overline {P'Q'}  = dz$$
@@ -117,3 +117,47 @@ Recalling that normal strain is defined by the change in length of a segment of 
 
 Thus ending up with the result expressed in eqn. {eq}`eq:stresscurvature`.
 ::::::
+
+### Flexure Formula
+In the previous section, we defined a linear relationship between the normal normal strains in a beam and the distance from the neutral plane of a beam; however, this relationship was in terms of the curvature of the beam. It would be more useful to be able to relate the internal stresses and strains in a beam to the moment loading rather than the beam curvature. 
+
+If we consider a beam under pure moment loading, the internal loading will simply be the bending moment, $M_x$, as illustrated in the figure below. We also observed in the previous section that bending will result in a internal normal stress state that varies linearly with the distance from the neutral plane. Realizing that the internal forces in the beam are simply resultants of the internal stress distribution, we can derive the relation between them by equating their resultants.
+
+```{figure} ../figures/FlexureFormulaRef2.svg
+---
+width: 80%
+name: Fig:FlexFormRef
+---
+Illustration of the internal normal stress distribution that has a resultant of $M_x$.
+```
+
+    ::::::{admonition} Normal Force Equivalency
+    :class: tudproof
+    It is logical that a normal stress distribution will have a resultant normal force. In the case of pure bending, the internal normal force is zero, so we need to ensure that resultant normal force:
+
+        \begin{equation*}
+            N_z = \int_A \sigma_z dA = 0
+        \end{equation*}
+    
+    where $dA$ is a differential area element of the cross-section and $A$ is the total area domain of the cross-section. In this case, we can observed that the normal stress varies only with the $y$-coordinate in eqn. \ref{eq:stresscurvature}. Thus we can conveniently define our differential area element $dA$ as slices of the cross-section with a constant $y$-coordinate (areas of constant stress) as illustrated in Fig. \ref{Fig:FlexFormRef}. Substituting the normal stress distribution from eqn. \ref{eq:stresscurvature}, we obtain:
+    
+        \begin{equation*}
+            N_z = \int_A E\frac{y}{R} dA = 0
+        \end{equation*}
+    
+    If we limit ourselves to a beam made out of a single material (constant $E$), then we can further simplify this to:
+    
+        \begin{equation*}
+            N_z = \frac{E}{R} \int_A y dA = 0
+        \end{equation*}
+    
+    Looking at this expression, we can see that there is only one non-trivial solution as if $R = 0$ there is no bending, and if $E=0$, there is no bending. Thus, in order for the condition of normal force equivalency to be met, then:
+    
+        \begin{equation*}
+            \int_A y dA = 0
+        \end{equation*}
+    
+    Hopefully this expression looks a little familiar to you. This integral is often referred to as the *First Moment of Area*, and denoted by the letter $Q$. We have used the First Moment of Area in the past to calculate the location of a centroid. 
+    
+    What does this condition actually mean? If you recall that we specified that $y$ was the distance from the neutral plane, but that we actually did not know at this moment precisely where it was located. This condition actually specifies its location. In order for First Moment of Area based on this definition of $y$ to be equal to zero, **the neutral plane must pass through the centroid of the cross-section**.  
+    ::::::
