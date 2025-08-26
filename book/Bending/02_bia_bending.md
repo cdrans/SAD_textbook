@@ -43,5 +43,5 @@ and then rearranging it define the linear relationship between the $x$ and the $
 ---
 name: eq:BiaBendNA
 ---
-\frac{y}{x} =  - \frac{{{M_y}{I_{xx}}}}{{{M_x}{I_{yy}}}} = \tan \alpha 
+\frac{y}{x} =  - \frac{{{M_y}{I_{xx}}}}{{{M_x}{I_{yy}}}} = {\tan} {\alpha} 
 ```
