@@ -1,214 +1,380 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2_copy" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 357.4 155.5">
+<svg id="Layer_2_copy" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 357.4 155.5">
   <!-- Generator: Adobe Illustrator 29.7.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 8)  -->
   <defs>
     <style>
       .st0 {
-        stroke-dasharray: 4.86 4.86;
-      }
-
-      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8 {
-        stroke-miterlimit: 10;
-      }
-
-      .st0, .st1, .st3, .st4, .st6, .st7, .st8 {
-        stroke: #231f20;
-      }
-
-      .st0, .st3, .st4 {
-        stroke-width: .38px;
-      }
-
-      .st0, .st3, .st4, .st5, .st6, .st9, .st7, .st8 {
-        fill: none;
-      }
-
-      .st10, .st11, .st2, .st12, .st13, .st14, .st15 {
-        fill: #231f20;
-      }
-
-      .st1, .st16 {
-        fill: #fff;
-      }
-
-      .st1, .st7 {
-        stroke-width: .5px;
-      }
-
-      .st11 {
-        font-family: TimesNewRomanPSMT, 'Times New Roman';
-      }
-
-      .st11, .st17, .st13, .st15, .st18 {
-        font-size: 10px;
-      }
-
-      .st2, .st5 {
-        stroke: #0072bc;
-      }
-
-      .st12, .st17, .st15 {
-        font-family: TimesNewRomanPS-ItalicMT, 'Times New Roman';
-        font-style: italic;
-      }
-
-      .st12, .st14 {
-        font-size: 9px;
-      }
-
-      .st4 {
         stroke-dasharray: 4.92 4.92;
       }
 
-      .st17, .st19 {
-        fill: #0072bc;
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8 {
+        fill: none;
       }
 
-      .st13, .st14, .st18 {
-        font-family: ArialMT, Arial;
+      .st0, .st1, .st2, .st4, .st5, .st7, .st8 {
+        stroke-miterlimit: 10;
       }
 
-      .st20, .st18 {
-        fill: #00a875;
+      .st0, .st1, .st2, .st5, .st7, .st8 {
+        stroke: #231f20;
       }
 
-      .st6 {
+      .st0, .st1, .st5 {
+        stroke-width: .38px;
+      }
+
+      .st1 {
+        stroke-dasharray: 4.86 4.86;
+      }
+
+      .st2 {
         stroke-width: 1.5px;
       }
 
       .st9 {
+        fill: #fff;
+      }
+
+      .st10 {
+        font-size: 5.5px;
+      }
+
+      .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19 {
+        isolation: isolate;
+      }
+
+      .st10, .st11, .st13, .st20, .st16, .st17, .st19 {
+        fill: #231f20;
+      }
+
+      .st10, .st12, .st13, .st18, .st19 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st11 {
+        font-size: 9px;
+      }
+
+      .st11, .st14, .st17 {
+        font-family: TimesNewRomanPS-ItalicMT, 'Times New Roman';
+        font-style: italic;
+      }
+
+      .st21, .st14 {
+        fill: #0072bc;
+      }
+
+      .st12 {
+        font-size: 5.8px;
+      }
+
+      .st12, .st22, .st18 {
+        fill: #00a875;
+      }
+
+      .st4 {
+        stroke: #0072bc;
+      }
+
+      .st13 {
+        font-size: 5.53px;
+      }
+
+      .st14, .st16, .st17, .st18, .st19 {
+        font-size: 10px;
+      }
+
+      .st16 {
+        font-family: TimesNewRomanPSMT, 'Times New Roman';
+      }
+
+      .st6 {
         stroke: #00a875;
         stroke-linejoin: round;
         stroke-width: 3px;
       }
+
+      .st7 {
+        stroke-width: .5px;
+      }
     </style>
-    <path id="path" d="M207.42,87.46c18.91,4.74,38.71,7.26,59.09,7.26s40.14-2.52,59.04-7.25"/>
   </defs>
-  <path class="st8" d="M-293.22-93.93l-31.4-126.41c-31.19,7.51-63.75,11.5-97.25,11.5-35.85,0-70.64-4.56-103.81-13.14l-32.16,126.22c43.46,11.19,89.02,17.13,135.97,17.13,44.32,0,87.4-5.31,128.65-15.31Z"/>
+  <path class="st8" d="M-293.22-93.93l-31.4-126.41c-31.19,7.51-63.75,11.5-97.25,11.5-35.85,0-70.64-4.56-103.81-13.14l-32.16,126.22c43.46,11.19,89.02,17.13,135.97,17.13,44.32,0,87.4-5.31,128.65-15.31h0Z"/>
   <g>
-    <path class="st3" d="M208.36,85.37c.8.2,1.61.4,2.41.6"/>
-    <path class="st4" d="M215.56,87.07c16.51,3.64,33.66,5.56,51.25,5.56s36.36-2.11,53.6-6.09"/>
-    <path class="st3" d="M322.81,85.98c.81-.2,1.61-.39,2.41-.6"/>
+    <path class="st5" d="M208.36,85.37c.8.2,1.61.4,2.41.6"/>
+    <path class="st0" d="M215.56,87.07c16.51,3.64,33.66,5.56,51.25,5.56s36.36-2.11,53.6-6.09"/>
+    <path class="st5" d="M322.81,85.98c.81-.2,1.61-.39,2.41-.6"/>
   </g>
-  <line class="st2" x1="241.44" y1="123.5" x2="247.72" y2="58.69"/>
-  <line class="st5" x1="286.72" y1="58.89" x2="292.99" y2="123.7"/>
-  <path class="st6" d="M316.94,53.95c-15.59,3.76-31.88,5.75-48.62,5.75-17.93,0-35.32-2.28-51.91-6.57"/>
-  <path class="st6" d="M200.33,116.24c21.73,5.59,44.51,8.57,67.99,8.57,22.16,0,43.7-2.65,64.33-7.65"/>
+  <line class="st4" x1="241.44" y1="123.5" x2="247.72" y2="58.69"/>
+  <line class="st4" x1="286.72" y1="58.89" x2="292.99" y2="123.7"/>
+  <path class="st2" d="M316.94,53.95c-15.59,3.76-31.88,5.75-48.62,5.75-17.93,0-35.32-2.28-51.91-6.57"/>
+  <path class="st2" d="M200.33,116.24c21.73,5.59,44.51,8.57,67.99,8.57,22.16,0,43.7-2.65,64.33-7.65"/>
   <polyline class="st7" points="198.89 121.54 203.5 103.56 207.37 102.72 201.38 97.53 205.25 96.69 217.83 47.57"/>
   <polyline class="st7" points="334.14 122.07 329.64 104.06 332.65 101.48 324.92 99.76 327.93 97.19 315.63 47.99"/>
-  <path class="st5" d="M242.43,113.31c8.15.77,16.4,1.16,24.75,1.16s16.65-.4,24.82-1.17"/>
-  <text class="st17" transform="translate(246.26 54.92)"><tspan x="0" y="0">A&apos;</tspan></text>
-  <text class="st17" transform="translate(284.76 54.92)"><tspan x="0" y="0">B&apos;</tspan></text>
-  <text class="st17" transform="translate(231.64 134.84)"><tspan x="0" y="0">C&apos;</tspan></text>
-  <text class="st17" transform="translate(293.39 134.84)"><tspan x="0" y="0">D&apos;</tspan></text>
-  <text class="st17" transform="translate(236.01 87.46)"><tspan x="0" y="0">P&apos;</tspan></text>
-  <text class="st17" transform="translate(293 87.46)"><tspan x="0" y="0">Q&apos;</tspan></text>
-  <g>
-    <line class="st16" x1="267.27" y1="92.63" x2="267.26" y2="113.8"/>
-    <g>
-      <line class="st7" x1="267.27" y1="92.63" x2="267.26" y2="111.14"/>
-      <polygon class="st10" points="266.39 110.55 267.26 113.8 268.14 110.55 266.39 110.55"/>
+  <path class="st4" d="M242.43,113.31c8.15.77,16.4,1.16,24.75,1.16s16.65-.4,24.82-1.17"/>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(246.26 54.92)"><tspan x="0" y="0">A&apos;</tspan></text>
     </g>
   </g>
-  <text class="st12" transform="translate(263.66 90.84)"><tspan x="0" y="0">dz</tspan></text>
-  <text class="st12" transform="translate(270.75 106)"><tspan x="0" y="0">y</tspan></text>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(284.76 54.92)"><tspan x="0" y="0">B&apos;</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(231.64 134.84)"><tspan x="0" y="0">C&apos;</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(293.39 134.84)"><tspan x="0" y="0">D&apos;</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(236.01 87.46)"><tspan x="0" y="0">P&apos;</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(293 87.46)"><tspan x="0" y="0">Q&apos;</tspan></text>
+    </g>
+  </g>
+  <g>
+    <line class="st3" x1="267.27" y1="92.63" x2="267.26" y2="113.8"/>
+    <g>
+      <line class="st7" x1="267.27" y1="92.63" x2="267.26" y2="111.14"/>
+      <polygon class="st20" points="266.39 110.55 267.26 113.8 268.14 110.55 266.39 110.55"/>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st11" transform="translate(263.66 90.84)"><tspan x="0" y="0">dz</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st11" transform="translate(270.75 106)"><tspan x="0" y="0">y</tspan></text>
+    </g>
+  </g>
   <g>
     <polyline class="st7" points="239.76 7.88 235.62 35.52 231.85 36.75 238.33 41.31 234.57 42.53 227.99 86.37"/>
-    <polygon class="st10" points="227.22 85.65 227.6 89 228.94 85.91 227.22 85.65"/>
+    <polygon class="st20" points="227.22 85.65 227.6 89 228.94 85.91 227.22 85.65"/>
   </g>
-  <circle class="st10" cx="267.21" cy="7.88" r="1.57"/>
-  <line class="st1" x1="258.66" y1="7.88" x2="232.09" y2="7.88"/>
+  <circle class="st20" cx="267.21" cy="7.88" r="1.57"/>
+  <line class="st7" x1="258.66" y1="7.88" x2="232.09" y2="7.88"/>
   <line class="st7" x1="245.95" y1="27.37" x2="288.47" y2="27.37"/>
   <line class="st7" x1="248.98" y1="46.92" x2="250.87" y2="27.37"/>
   <line class="st7" x1="283.66" y1="27.37" x2="285.55" y2="46.89"/>
   <line class="st7" x1="260.12" y1="20.28" x2="274.29" y2="20.28"/>
   <line class="st7" x1="267.21" y1="7.88" x2="263.66" y2="20.28"/>
   <line class="st7" x1="270.75" y1="20.28" x2="267.21" y2="7.88"/>
-  <text class="st15" transform="translate(270.75 7.88)"><tspan x="0" y="0">O</tspan></text>
-  <text class="st11" transform="translate(226.54 27.37)"><tspan x="0" y="0">R</tspan></text>
-  <text class="st17" transform="translate(231.64 114.47)"><tspan x="0" y="0">E&apos;</tspan></text>
-  <text class="st17" transform="translate(294.41 114.71)"><tspan x="0" y="0">F&apos;</tspan></text>
-  <g>
-    <path class="st9" d="M186.08,108.5c-8.5-14.73-5.02-33.07,7.44-43.74"/>
-    <polygon class="st20" points="195.18 69.24 198.8 61.03 189.88 62 195.18 69.24"/>
+  <g class="st15">
+    <g class="st15">
+      <text class="st17" transform="translate(270.75 7.88)"><tspan x="0" y="0">O</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st16" transform="translate(226.54 27.37)"><tspan x="0" y="0">R</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(231.64 114.47)"><tspan x="0" y="0">E&apos;</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(294.41 114.71)"><tspan x="0" y="0">F&apos;</tspan></text>
+    </g>
   </g>
   <g>
-    <path class="st9" d="M344.73,108.5c8.5-14.73,5.02-33.07-7.44-43.74"/>
-    <polygon class="st20" points="340.93 62 332.01 61.03 335.63 69.24 340.93 62"/>
+    <path class="st6" d="M186.08,108.5c-8.5-14.73-5.02-33.07,7.44-43.74"/>
+    <polygon class="st22" points="195.18 69.24 198.8 61.03 189.88 62 195.18 69.24"/>
   </g>
-  <text class="st18" transform="translate(187.96 54.53)"><tspan x="0" y="0">M</tspan></text>
-  <text class="st18" transform="translate(196.29 57.86) scale(.58)"><tspan x="0" y="0">x</tspan></text>
-  <text class="st18" transform="translate(329.37 55.32)"><tspan x="0" y="0">M</tspan></text>
-  <text class="st18" transform="translate(337.7 58.65) scale(.58)"><tspan x="0" y="0">x</tspan></text>
-  <text>
-    <textPath startOffset="2.28%" xlink:href="#path"><tspan class="st14"><tspan x="0" y="0">Neutral Plane</tspan></tspan>
-    </textPath></text>
-  <circle class="st19" cx="247.7" cy="58.89" r="1.41"/>
-  <circle class="st19" cx="286.72" cy="58.89" r="1.41"/>
-  <circle class="st19" cx="244.53" cy="91.64" r="1.41"/>
-  <circle class="st19" cx="289.88" cy="91.64" r="1.41"/>
-  <circle class="st19" cx="242.43" cy="113.31" r="1.41"/>
-  <circle class="st19" cx="291.98" cy="113.3" r="1.41"/>
-  <circle class="st19" cx="241.44" cy="123.52" r="1.41"/>
-  <circle class="st19" cx="293" cy="123.84" r="1.41"/>
+  <g>
+    <path class="st6" d="M344.73,108.5c8.5-14.73,5.02-33.07-7.44-43.74"/>
+    <polygon class="st22" points="340.93 62 332.01 61.03 335.63 69.24 340.93 62"/>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st18" transform="translate(187.96 54.53)"><tspan x="0" y="0">M</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st12" transform="translate(196.29 57.86)"><tspan x="0" y="0">x</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st18" transform="translate(329.37 55.32)"><tspan x="0" y="0">M</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st12" transform="translate(337.7 58.65)"><tspan x="0" y="0">x</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st13" transform="translate(209.33 92.11) rotate(12.65)"><tspan x="0" y="0">N</tspan></text>
+    </g>
+    <g class="st15">
+      <text class="st13" transform="translate(213.23 92.98) rotate(11.28)"><tspan x="0" y="0">e</tspan></text>
+    </g>
+    <g class="st15">
+      <text class="st13" transform="translate(216.25 93.58) rotate(10.09)"><tspan x="0" y="0">u</tspan></text>
+    </g>
+    <g class="st15">
+      <text class="st13" transform="translate(219.28 94.11) rotate(9.2)"><tspan x="0" y="0">t</tspan></text>
+    </g>
+    <g class="st15">
+      <text class="st13" transform="translate(220.8 94.36) rotate(8.55)"><tspan x="0" y="0">r</tspan></text>
+    </g>
+    <g class="st15">
+      <text class="st13" transform="translate(222.62 94.64) rotate(7.61)"><tspan x="0" y="0">a</tspan></text>
+    </g>
+    <g class="st15">
+      <text class="st13" transform="translate(225.67 95.04) rotate(6.78)"><tspan x="0" y="0">l</tspan></text>
+    </g>
+    <g class="st15">
+      <text class="st13" transform="translate(228.41 95.36) rotate(5.25)"><tspan x="0" y="0">P</tspan></text>
+    </g>
+    <g class="st15">
+      <text class="st13" transform="translate(232.09 95.69) rotate(4.31)"><tspan x="0" y="0">l</tspan></text>
+    </g>
+    <g class="st15">
+      <text class="st13" transform="translate(233.32 95.79) rotate(3.48)"><tspan x="0" y="0">a</tspan></text>
+    </g>
+    <g class="st15">
+      <text class="st13" transform="translate(236.38 95.98) rotate(2.31)"><tspan x="0" y="0">n</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <text class="st10" transform="translate(239.43 96.17) rotate(1.15)"><tspan x="0" y="0">e</tspan></text>
+  </g>
+  <circle class="st21" cx="247.7" cy="58.89" r="1.41"/>
+  <circle class="st21" cx="286.72" cy="58.89" r="1.41"/>
+  <circle class="st21" cx="244.53" cy="91.64" r="1.41"/>
+  <circle class="st21" cx="289.88" cy="91.64" r="1.41"/>
+  <circle class="st21" cx="242.43" cy="113.31" r="1.41"/>
+  <circle class="st21" cx="291.98" cy="113.3" r="1.41"/>
+  <circle class="st21" cx="241.44" cy="123.52" r="1.41"/>
+  <circle class="st21" cx="293" cy="123.84" r="1.41"/>
   <polyline class="st7" points="131.72 131.66 131.8 113.1 135.36 111.34 128.29 107.77 131.84 106.01 132.08 55.3"/>
   <polyline class="st7" points="14.58 131.66 14.67 113.1 18.22 111.34 11.15 107.77 14.7 106.01 14.94 55.3"/>
-  <line class="st6" x1="15.32" y1="59.7" x2="132.18" y2="59.71"/>
-  <line class="st6" x1="14.69" y1="124.99" x2="131.55" y2="125"/>
+  <line class="st2" x1="15.32" y1="59.7" x2="132.18" y2="59.71"/>
+  <line class="st2" x1="14.69" y1="124.99" x2="131.55" y2="125"/>
   <g>
-    <line class="st3" x1="14.69" y1="92.62" x2="17.17" y2="92.63"/>
-    <line class="st0" x1="22.04" y1="92.63" x2="126.63" y2="92.64"/>
-    <line class="st3" x1="129.06" y1="92.64" x2="131.55" y2="92.64"/>
+    <line class="st5" x1="14.69" y1="92.62" x2="17.17" y2="92.63"/>
+    <line class="st1" x1="22.04" y1="92.63" x2="126.63" y2="92.64"/>
+    <line class="st5" x1="129.06" y1="92.64" x2="131.55" y2="92.64"/>
   </g>
-  <line class="st2" x1="50.43" y1="114.71" x2="95.79" y2="114.71"/>
-  <line class="st2" x1="50.44" y1="125" x2="50.44" y2="59.7"/>
-  <line class="st2" x1="95.8" y1="125" x2="95.8" y2="58.89"/>
-  <circle class="st19" cx="50.44" cy="59.89" r="1.41"/>
-  <circle class="st19" cx="95.79" cy="59.7" r="1.41"/>
-  <circle class="st19" cx="50.44" cy="92.63" r="1.41"/>
-  <circle class="st19" cx="95.68" cy="92.63" r="1.41"/>
-  <circle class="st19" cx="50.43" cy="114.47" r="1.41"/>
-  <circle class="st19" cx="95.68" cy="114.71" r="1.41"/>
-  <circle class="st19" cx="50.43" cy="125" r="1.41"/>
-  <circle class="st19" cx="95.8" cy="125" r="1.41"/>
-  <text class="st17" transform="translate(40.76 56.42)"><tspan x="0" y="0">A</tspan></text>
-  <text class="st17" transform="translate(98.26 56.42)"><tspan x="0" y="0">B</tspan></text>
-  <text class="st17" transform="translate(40.59 89.3)"><tspan x="0" y="0">P</tspan></text>
-  <text class="st17" transform="translate(98.09 89.3)"><tspan x="0" y="0">Q</tspan></text>
-  <text class="st17" transform="translate(40.76 116.24)"><tspan x="0" y="0">E</tspan></text>
-  <text class="st17" transform="translate(98.26 116.24)"><tspan x="0" y="0">F</tspan></text>
-  <text class="st17" transform="translate(40.59 134.84)"><tspan x="0" y="0">C</tspan></text>
-  <text class="st17" transform="translate(98.09 134.84)"><tspan x="0" y="0">D</tspan></text>
+  <line class="st4" x1="50.43" y1="114.71" x2="95.79" y2="114.71"/>
+  <line class="st4" x1="50.44" y1="125" x2="50.44" y2="59.7"/>
+  <line class="st4" x1="95.8" y1="125" x2="95.8" y2="58.89"/>
+  <circle class="st21" cx="50.44" cy="59.89" r="1.41"/>
+  <circle class="st21" cx="95.79" cy="59.7" r="1.41"/>
+  <circle class="st21" cx="50.44" cy="92.63" r="1.41"/>
+  <circle class="st21" cx="95.68" cy="92.63" r="1.41"/>
+  <circle class="st21" cx="50.43" cy="114.47" r="1.41"/>
+  <circle class="st21" cx="95.68" cy="114.71" r="1.41"/>
+  <circle class="st21" cx="50.43" cy="125" r="1.41"/>
+  <circle class="st21" cx="95.8" cy="125" r="1.41"/>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(40.76 56.42)"><tspan x="0" y="0">A</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(98.26 56.42)"><tspan x="0" y="0">B</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(40.59 89.3)"><tspan x="0" y="0">P</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(98.09 89.3)"><tspan x="0" y="0">Q</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(40.76 116.24)"><tspan x="0" y="0">E</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(98.26 116.24)"><tspan x="0" y="0">F</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(40.59 134.84)"><tspan x="0" y="0">C</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st14" transform="translate(98.09 134.84)"><tspan x="0" y="0">D</tspan></text>
+    </g>
+  </g>
   <g>
-    <line class="st16" x1="72.01" y1="92.89" x2="72.01" y2="113.72"/>
+    <line class="st3" x1="72.01" y1="92.89" x2="72.01" y2="113.72"/>
     <g>
       <line class="st7" x1="72.01" y1="92.89" x2="72.01" y2="111.06"/>
-      <polygon class="st10" points="71.14 110.47 72.01 113.72 72.88 110.47 71.14 110.47"/>
+      <polygon class="st20" points="71.14 110.47 72.01 113.72 72.88 110.47 71.14 110.47"/>
     </g>
   </g>
-  <text class="st12" transform="translate(75.49 105.92)"><tspan x="0" y="0">y</tspan></text>
-  <line class="st3" x1="50.43" y1="54.92" x2="50.44" y2="44"/>
-  <line class="st3" x1="95.79" y1="54.93" x2="95.8" y2="44.01"/>
-  <g>
-    <line class="st3" x1="52.43" y1="46.25" x2="93.8" y2="46.25"/>
-    <polygon class="st10" points="52.87 46.9 50.43 46.25 52.87 45.6 52.87 46.9"/>
-    <polygon class="st10" points="93.36 46.9 95.8 46.25 93.36 45.6 93.36 46.9"/>
+  <g class="st15">
+    <g class="st15">
+      <text class="st11" transform="translate(75.49 105.92)"><tspan x="0" y="0">y</tspan></text>
+    </g>
   </g>
-  <rect class="st16" x="65.63" y="41.5" width="14" height="7.96"/>
-  <text class="st12" transform="translate(69.16 47.8)"><tspan x="0" y="0">dz</tspan></text>
+  <line class="st5" x1="50.43" y1="54.92" x2="50.44" y2="44"/>
+  <line class="st5" x1="95.79" y1="54.93" x2="95.8" y2="44.01"/>
   <g>
-    <path class="st3" d="M246.62,91.78c6.68.57,13.43.85,20.25.85s14.12-.31,21.05-.92"/>
-    <polygon class="st10" points="247.02 92.42 244.63 91.6 247.11 91.12 247.02 92.42"/>
-    <polygon class="st10" points="287.52 92.35 289.9 91.52 287.42 91.05 287.52 92.35"/>
+    <line class="st5" x1="52.43" y1="46.25" x2="93.8" y2="46.25"/>
+    <polygon class="st20" points="52.87 46.9 50.43 46.25 52.87 45.6 52.87 46.9"/>
+    <polygon class="st20" points="93.36 46.9 95.8 46.25 93.36 45.6 93.36 46.9"/>
   </g>
-  <text class="st13" transform="translate(19.22 151.36)"><tspan x="0" y="0">(a) undeformed segment </tspan></text>
-  <text class="st13" transform="translate(217.72 151.36)"><tspan x="0" y="0">(b) deformed segment </tspan></text>
+  <rect class="st9" x="65.63" y="41.5" width="14" height="7.96"/>
+  <g class="st15">
+    <g class="st15">
+      <text class="st11" transform="translate(69.16 47.8)"><tspan x="0" y="0">dz</tspan></text>
+    </g>
+  </g>
   <g>
-    <line class="st16" x1="133.26" y1="92.64" x2="147.26" y2="92.63"/>
+    <path class="st5" d="M246.62,91.78c6.68.57,13.43.85,20.25.85s14.12-.31,21.05-.92"/>
+    <polygon class="st20" points="247.02 92.42 244.63 91.6 247.11 91.12 247.02 92.42"/>
+    <polygon class="st20" points="287.52 92.35 289.9 91.52 287.42 91.05 287.52 92.35"/>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st19" transform="translate(19.22 151.36)"><tspan x="0" y="0">(a) undeformed segment</tspan></text>
+    </g>
+  </g>
+  <g class="st15">
+    <g class="st15">
+      <text class="st19" transform="translate(217.72 151.36)"><tspan x="0" y="0">(b) deformed segment</tspan></text>
+    </g>
+  </g>
+  <g>
+    <line class="st3" x1="133.26" y1="92.64" x2="147.26" y2="92.63"/>
     <g>
       <line class="st7" x1="133.26" y1="92.64" x2="144.6" y2="92.63"/>
-      <polygon class="st10" points="144 93.5 147.26 92.63 144 91.76 144 93.5"/>
+      <polygon class="st20" points="144 93.5 147.26 92.63 144 91.76 144 93.5"/>
     </g>
   </g>
-  <text class="st12" transform="translate(148.24 94.04)"><tspan x="0" y="0">z</tspan></text>
+  <g class="st15">
+    <g class="st15">
+      <text class="st11" transform="translate(148.24 94.04)"><tspan x="0" y="0">z</tspan></text>
+    </g>
+  </g>
 </svg>
