@@ -12,6 +12,7 @@ Orientation of a moment, $M$, in the $xy$-plane.
 Take a moment and think about how you would expect the beam to deform under this new internal loading. 
 - Where would you expect the neutral axis to be located? 
 - Where do you expect the maximum bending stresses to occur? 
+
 Write down your thoughts so that you can critically reflect on them and align your intuition with the resulting theory. Please do not skip this step as it is vital for developing your own engineer intuition.
 
 ### Analyzing Biaxial Bending Using Superposition
@@ -29,4 +30,18 @@ Here the moment, $M$, is decomposed into components $M\cos\theta$ and $M\sin\the
 name: eq:BiaxialBend
 ---
 {\sigma _z} = \frac{{{M_x}y}}{{{I_{xx}}}} + \frac{{{M_y}x}}{{{I_{yy}}}}
+```
+where $M_x$ and $M_y$ are the $x$- and $y$-components of an arbitrary moment $M$, $x$ and $y$ are the distances from the $y$ and $x$ axes respectively, and $I_{xx}$ and $I_{yy}$ are the moments of inertia about the $x$ and $y$ axes respectively. For the above illustrated case, $ {M_x} = M\cos \theta $ as this component produces a positive normal stress in the positive $y$-direction and ${M_y} =  - M\sin \theta $ as this component produces a negative normal stress in the positive $x$-direction.
+
+When analyzing a biaxial bending problem, one must take care when identifying the location of the neutral axis. It may be tempting to think that it will be aligned with moment $M$ as it is with the symmetric bending components, but this is generally not the case. Recognizing that the normal stress at the neutral axis is zero, we can prove this by setting eqn. {eq}`eq:BiaxialBend` equal to zero:
+    \begin{equation*}
+    {\sigma _z} = \frac{{{M_x}y}}{{{I_{xx}}}} + \frac{{{M_y}x}}{{{I_{yy}}}} = 0
+    \end{equation*}
+
+and then rearranging it define the linear relationship between the $x$ and the $y$ coordinate of the neutral axis:
+```{math}
+---
+name: eq:BiaBendNA
+---
+\frac{y}{x} =  - \frac{{{M_y}{I_{xx}}}}{{{M_x}{I_{yy}}}} = \tan \alpha 
 ```
