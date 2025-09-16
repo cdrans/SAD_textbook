@@ -47,7 +47,7 @@ name: eq:BiaBendNA
 Finally, we can recognize that the ratio of $y/x$ will be equal to the tangent of the angle $\alpha$ as defined in {numref}`Fig:BiaxBendNA`, allowing us to solve for the angle of the neutral axis.
 ```{figure} ../figures/Biaxial_bending_NA.svg
 ---
-width: 90%
+width: 70%
 name: Fig:BiaxBendNA
 ---
 Orientation of the moment and neutral axis in biaxial bending.
