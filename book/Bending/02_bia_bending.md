@@ -45,7 +45,7 @@ name: eq:BiaBendNA
 \frac{y}{x} =  - \frac{{{M_y}{I_{xx}}}}{{{M_x}{I_{yy}}}} = \tan\alpha 
 ```
 Finally, we can recognize that the ratio of $y/x$ will be equal to the tangent of the angle $\alpha$ as defined in {numref}`Fig:BiaxBendNA`, allowing us to solve for the angle of the neutral axis.
-```{figure} ../figures/Biaxial_Bending_NA.svg
+```{figure} ../figures/Biaxial_bending_NA.svg
 ---
 width: 90%
 name: Fig:BiaxBendNA
