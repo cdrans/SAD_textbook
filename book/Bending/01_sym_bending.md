@@ -59,7 +59,7 @@ As we can see, the material within the beam is either being elongated or compres
 
 ```{math}
 ---
-name: eq:BendCurv
+label: eq:BendCurv
 ---
 \epsilon_z = \frac{y}{R}
 ```
@@ -72,7 +72,7 @@ Recalling that we are limiting our analysis of beams to the linear elastic mater
 
 ```{math}
 ---
-name: eq:stresscurvature
+label: eq:stresscurvature
 ---
 {\sigma _z} = E{_z} = E\frac{y}{R}
 ```
@@ -199,7 +199,7 @@ This equation is typically referred to as the *Flexure Formula*.
 From the above two derivations, we discovered that the neutral plane must pass through the centroid of the cross-section, and developed the following equation, known as the *Flexure Formula*:
 ```{math}
 ---
-name: eq:flexform
+label: eq:flexform
 ---
 M_x = \frac{M_x \cdot y}{I_{xx}}
 ```
