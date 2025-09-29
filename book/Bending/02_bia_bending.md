@@ -44,3 +44,20 @@ name: eq:BiaBendNA
 ---
 \frac{y}{x} =  - \frac{{{M_y}{I_{xx}}}}{{{M_x}{I_{yy}}}} = \tan\alpha 
 ```
+Finally, we can recognize that the ratio of $y/x$ will be equal to the tangent of the angle $\alpha$ as defined in {numref}`Fig:BiaxBendNA`, allowing us to solve for the angle of the neutral axis.
+```{figure} ../figures/Biaxial_bending_NA.svg
+---
+width: 70%
+name: Fig:BiaxBendNA
+---
+Orientation of the moment and neutral axis in biaxial bending.
+```
+If we consider a moment $M$ as shown above, we see that eqn. {eq}`eq:BiaBendNA` equation reduces too:
+
+$$\tan \alpha  =  - \frac{{( - M\sin \theta ){I_{xx}}}}{{(M\cos \theta ){I_{yy}}}} = \tan \theta \frac{{{I_{xx}}}}{{{I_{yy}}}}$$
+
+Please note that in the above equation, $M_y$ decomposes into $\left( { - M\sin \theta } \right)$ due to the fact that it produces a negative internal normal stress in the positive $x$-direction.
+
+Here, we can clearly see that the angle of the moment and the neutral axis will only align when the moments of inertia along the $x$ and $y$ axes are the same, which is generally not true. It is also possible to make some additional observations regarding the neutral axis location. Since the moments of inertia have to both be positive quantities, the tangent of angles $\theta$ and $\alpha$ have to have the same sign. This effectively means that the **neutral axis has to pass through the same quadrant of the beam cross section that the resultant moment is pointing**.
+
+For analyzing beam deflections, the same approach can be taken. By decomposing the internal moment into two symmetrical bending cases, the Moment-Curvature Relationship derived in the previous section can be applied to each of these cases and the total deflection obtained by superposition. Be conscious, however, that the bending deflections will be in different directions, so you will need to perform vector addition rather than scalar addition when adding them together.
